@@ -1,0 +1,72 @@
+/* Basic Reset & Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f7f6;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* General Link Styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form Element Base Styles */
+input[type='text'],
+input[type='date'],
+input[type='time'],
+textarea,
+select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 1em;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Utility Classes (optional, but good for consistency) */
+.text-center {
+  text-align: center;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
